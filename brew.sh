@@ -47,6 +47,19 @@ brew install openssh
 brew install screen
 brew install homebrew/php/php56 --with-gmp
 
+brew install node
+
+npm install -g tldr
+
+brew install the_silver_searcher
+brew install fzf
+$(brew --prefix)/opt/fzf/install
+
+brew install httpie
+brew install mycli
+brew install pandoc
+
+
 # Install font tools.
 # brew tap bramstein/webfonttools
 # brew install sfnt2woff

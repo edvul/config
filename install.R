@@ -1,4 +1,10 @@
-install.packages('devtools')
-install.packages('tidyverse')
-install.packages('rstanarm')
-install.packages('lme4')
+packages = c('devtools', 
+             'tidyverse',
+             'lme4',
+             'mvtnorm',
+             'learnr', 'car', 'lsr')
+
+install.packages(packages)
+
+
+
