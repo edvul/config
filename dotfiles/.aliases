@@ -52,10 +52,10 @@ alias sudo='sudo '
 alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm install npm -g; npm update -g; sudo gem update --system; sudo gem update; sudo gem cleanup'
 
 # Google Chrome
-alias chrome='/Applications/Browsers/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
-alias canary='/Applications/Browsers/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
-alias ffdev='/Applications/Browsers/Firefox\ Developer\ Edition.app/Contents/MacOS/firefox'
-alias ffnightly='/Applications/Browsers/Firefox\ Nightly.app/Contents/MacOS/firefox'
+alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
+alias ffdev='/Applications/Firefox\ Developer\ Edition.app/Contents/MacOS/firefox'
+alias ffnightly='/Applications/Firefox\ Nightly.app/Contents/MacOS/firefox'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"

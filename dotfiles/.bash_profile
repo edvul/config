@@ -1,5 +1,5 @@
 # Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$HOME/.rbenv/shims:/usr/local/bin:$PATH";
+export PATH="$HOME/bin:$HOME/.rbenv/shims:/usr/local/bin:/usr/local/sbin:$HOME/.composer/vendor/bin:$PATH";
 
 export JAVA_HOME=$(/usr/libexec/java_home)
 export MTURK_CMD_HOME=/Users/evul/bin/aws-mturk-clt/
