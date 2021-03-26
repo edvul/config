@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-sudo chown -R $(whoami) $(brew --prefix)/*
+#sudo chown -R $(whoami) $(brew --prefix)/*
 
 # Install command-line tools using Homebrew.
 
@@ -114,6 +114,8 @@ brew install gpg
 brew install git-crypt
 brew install emacs
 brew install wget
+
+brew install $(cat brewpackages.txt)
 
 # Remove outdated versions from the cellar.
 brew cleanup

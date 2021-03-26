@@ -1,15 +1,15 @@
 # homebrew installation and setup
 
-source brew.sh
+#source brew.sh
 
 # OSX setup
-source macos.sh
+#source macos.sh
 
 # setup dotfiles
-source dotfiles.sh
+#source dotfiles.sh
 
 # git config
-git config --global credential.helper osxkeychain
+#git config --global credential.helper osxkeychain
 
 # install dropbox
 
@@ -24,7 +24,7 @@ git config --global credential.helper osxkeychain
 # sublime text
 
 # add sublime link.
-ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+# ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
 # link dotiles directory to dotfiles
 

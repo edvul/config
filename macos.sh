@@ -17,10 +17,10 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "EVUL-LAPTOP"
-sudo scutil --set HostName "EVUL-LAPTOP"
-sudo scutil --set LocalHostName "EVUL-LAPTOP"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "EVUL-LAPTOP"
+sudo scutil --set ComputerName "EVUL-M1"
+sudo scutil --set HostName "EVUL-M1"
+sudo scutil --set LocalHostName "EVUL-M1"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "EVUL-M1"
 
 
 

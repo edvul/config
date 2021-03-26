@@ -9,7 +9,7 @@
 shopt -s extglob
 for f in dotfiles/.!(|.); 
 do 
-	# echo $f;
+	echo $f;
 	rm ~/`basename $f`; 
 	ln -s `pwd`/${f} ~/`basename $f`;
 done
