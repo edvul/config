@@ -1,0 +1,4 @@
+#!/bin/sh
+
+
+sshfs evul@vulstats.ucsd.edu:/var/www /Users/evul/mount/vulstats -ovolname=vulstats && open /Users/evul/mount/vulstats 
